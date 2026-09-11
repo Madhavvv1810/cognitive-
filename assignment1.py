@@ -62,11 +62,16 @@ print(s)
 # Q5.3
 n = int(input())
 s = 0
-for i in range(2,n+1):
-    if all(i%j != 0 for j in range(2,i)):
+for i in range(2, n+1):
+    prime = True
+
+    for j in range(2, i):
+        if i % j == 0:
+            prime = False
+            break
+    if prime:
         s += i
 print(s)
-
 
 # Q6.1
 def AddOddNumbers(n):
