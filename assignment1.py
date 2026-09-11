@@ -128,29 +128,29 @@ print(name, age, price)
 
 # Q8.4
 s = """This is a long string
-with multiple lines."""
+with multiple lines hmm ."""
 print(s)
 
 # Q8.5
-s = " Indian   Army    "
+s = " naman   naman    "
 print(len(s))
 print(s.strip())
 print(len(s.strip()))
 
 # Q8.6
-s = " Indian,   Army    "
+s = " naman,   nitin    "
 print(s.split())
 print(s.split(","))
 print(s.strip().split(","))
 
 # Q8.7
-s = " Indian Army    "
+s = " naman nitin    "
 print(s.count(" "))
 print(s.count("a"))
 print(s.count("an"))
 
 # Q8.8
-s = "Indian Army"
+s = "nitin naman"
 print(s[::1])
 print(s[::2])
 print(s[::-1])
