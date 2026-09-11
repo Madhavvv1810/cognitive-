@@ -109,11 +109,11 @@ for k,v in d.items():
 print(d.get("email","Email not found"))
 
 friend = {
-    "name":"Kamlesh",
-    "roll_no":"1023833",
+    "name":"Mantavya",
+    "roll_no":"1024030900",
     "branch":"CSE",
     "age":19,
-    "city":"Mumbai"
+    "city":"chd"
 }
 
 print(d | friend)
