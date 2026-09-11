@@ -124,7 +124,7 @@ print(s.lower())
 name = input()
 age = int(input())
 price = float(input())
-print(name.upper(), age, price)
+print(name, age, price)
 
 # Q8.4
 s = """This is a long string
